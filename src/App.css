@@ -1,0 +1,91 @@
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  z-index: 1000;
+  position: fixed;
+  background: #1D4A77; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#1D4A77,#316CA3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#1D4A77,#316CA3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#1D4A77,#316CA3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#1D4A77,#316CA3); /* Standard syntax */
+  display: block;
+  height: 120px;
+  width: 100%;
+  color: white;
+
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.container {
+  padding-top: 110px;
+  margin-left: 5rem;
+  text-align: center;
+}
+
+.mediaHolder {
+
+  display: inline-flex;
+  padding: 1em;
+
+
+}
+
+.header {
+  padding-top: 13px;
+}
+
+.artistName {
+  font-style: italic;
+  color: #666;
+  font-family: "Source Sans Pro";
+
+}
+
+.title {
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 1.2em;
+}
+
+.load {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: white;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+img {
+  object-fit: cover
+}
+
+
